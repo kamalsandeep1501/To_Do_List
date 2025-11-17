@@ -1,26 +1,33 @@
-🚀 Features
+📝 Todo List App – Flutter Mini Project
+
+A simple and clean Todo List App built using Flutter.
+Users can add tasks, view them in a list, and delete them easily.
+Designed with a minimal interface for quick daily task management.
+
+✨ Features
 
 ➕ Add new tasks
 
-🗑 Delete existing tasks
-
 📋 View all tasks in a scrollable list
+
+🗑 Delete tasks with one tap
 
 ✏ Prevents adding empty tasks
 
-🎨 Clean Material UI design
+🎨 Clean and simple Material UI design
 
-⚡ Fast & beginner-friendly code structure
+⚡ Beginner-friendly code structure
 
-📱 Screenshots
-🟦 Home Screen – Empty Task List
-https://github.com/kamalsandeep1501/To_Do_List/blob/main/images/Screenshot%202025-11-17%20212207.png
+📱 Screens Included
+1. Home Screen – Empty Task List
 
-🟥 Task List with Added Items
-https://github.com/kamalsandeep1501/To_Do_List/blob/main/images/Screenshot%202025-11-17%20212353.png
+Shows a friendly message when no tasks are added.
 
+2. Task List Screen
 
-🛠 Tech Stack
+Displays all added tasks with delete options.
+
+🛠️ Tech Used
 
 Flutter
 
@@ -32,21 +39,21 @@ ListView.builder
 
 Material UI Components
 
-Install Flutter
+🚀 How to Run
 
-Open project folder
+Install Flutter SDK
 
-Run the commands below:
+Clone the repository:
+
+git clone https://github.com/kamalsandeep1501/To_Do_List
+
+
+Open the project folder:
+
+cd To_Do_List
+
+
+Run the project:
 
 flutter pub get
 flutter run
-
-🧠 How It Works
-
-The user types a task in the TextField
-
-Pressing the + button adds the task to a List
-
-Tasks are displayed using ListView.builder()
-
-Each task has a delete icon to remove it
